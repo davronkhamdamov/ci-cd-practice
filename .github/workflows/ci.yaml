@@ -11,8 +11,8 @@ on:
       build:
         runs_on: ubuntu-latest
         strategy:
-        matrix:
-                node-version: [14, 16, 18]
+                matrix:
+                        node-version: [14, 16, 18]
         steps:
                 - name: Checkout code
                   uses: actions/checkout@v3
