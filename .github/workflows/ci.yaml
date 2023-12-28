@@ -13,7 +13,7 @@ jobs:
         strategy:
             matrix:
                 node-version: [14, 16, 18]
-        name: Node ${{ matrix.node }} sample
+        name: Node ${{ matrix.node }} sample1
         steps:
             - name: Checkout code
               uses: actions/checkout@v3
